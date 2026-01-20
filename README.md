@@ -17,7 +17,7 @@ I implemented a deep learning approach using **RoBERTa-base** (Robustly Optimize
 ## Validation Methodology
 * **Data Split**: An 80-20 stratified split was used to ensure the validation set represents the original rating distribution.
 * **Primary Metric**: **Weighted F1-Score** (as specified in the assignment). This metric accounts for both Precision and Recall while weighting them by class frequency.
-* **Final Performance**: The model achieved a Validation Weighted F1-Score of approximately `0.75 - 0.78`.
+* **Final Performance**: The model achieved a Validation Weighted F1-Score of approximately `0.73`.
 
 ## Instructions to Run the Code
 1. **Prerequisites**: Ensure you have Python 3.8+ and a GPU-enabled environment (Kaggle/Colab is recommended).
